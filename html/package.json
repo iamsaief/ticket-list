@@ -1,0 +1,16 @@
+{
+	"name": "html",
+	"version": "1.0.0",
+	"main": "index.js",
+	"license": "MIT",
+	"source": [
+		"./index.html"
+	],
+	"scripts": {
+		"parcel": "parcel",
+		"parcel:build": "parcel build"
+	},
+	"devDependencies": {
+		"parcel": "^2.4.1"
+	}
+}
