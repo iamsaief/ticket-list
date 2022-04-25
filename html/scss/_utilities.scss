@@ -19,7 +19,7 @@ $base-font: $base-grid;
 }
 
 // Margin and Padding
-@for $i from 1 through 20 {
+@for $i from 1 through 30 {
 	$result: $base-grid * $i;
 	// Margin
 	.#{$variable-prefix}-m-#{$result} {
