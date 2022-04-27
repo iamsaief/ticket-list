@@ -13,12 +13,12 @@
 	<body>
 		<div class="tl-py-60 tl-px-16">
 			<div class="tl-container">
-				<div class="tl-card tl-card--support-forum">
+				<div class="tl-card tl-card--support-forum tl-mb-40">
 					<div class="tl-card__header tl-card__header--flex-between">
 						<div class="tl-card__header--title tl-fw-7">Support Resources</div>
 						<div class="tl-button-group">
-							<button class="tl-button tl-button--link tl-button--lg" type="button">Link</button>
-							<button class="tl-button tl-button--primary tl-button--lg" type="button">Button</button>
+							<button class="tl-button tl-button--link tl-button--lg" type="button">Need Help?</button>
+							<button class="tl-button tl-button--primary tl-button--lg" type="button">Get Support</button>
 						</div>
 					</div>
 					<div class="tl-card__body">
@@ -31,9 +31,9 @@
 								<clippath id="a"><path fill="#fff" transform="translate(16 18)" d="M0 0h32v28H0z"></path></clippath>
 							</defs>
 						</svg>
-						<h4 class="tl-fw-7 tl-fs-24 tl-mt-10">Support Forums</h4>
-						<p class="tl-mt-10">Search the topic you need help with in our support forums.</p>
-						<button class="tl-button tl-button--link tl-button--sm tl-button--has-icon tl-mt-6" type="button">
+						<h4 class="tl-fw-7 tl-fs-24 tl-mb-10 tl-primary-black">Support Forums</h4>
+						<p class="tl-mb-6">Search the topic you need help with in our support forums.</p>
+						<button class="tl-button tl-button--link tl-button--sm tl-button--has-icon" type="button">
 							<span class="tl-bttuon__text">Browse Forums</span>
 							<span class="tl-button__icon">
 								<svg width="13" height="13" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -44,6 +44,117 @@
 						<div class="tl-form-group tl-form-group--radius tl-form-group--has-icon tl-mt-16">
 							<input type="search" name="tl-support-forum-search" class="tl-form-control" placeholder="Search support forum">
 						</div>
+					</div>
+				</div>
+
+				<div class="tl-card tl-card--datatable tl-mb-40">
+					<div class="tl-card__header tl-card__header--flex-between">
+						<div class="tl-card__header--title tl-fw-7">My Tickets</div>
+						<div class="tl-card__header--filter-search">
+							<div>
+								<select name="tl-tickets-category-status" class="tl-form-control">
+									<option value="all">all</option>
+									<option value="open">open</option>
+									<option value="feedback">feedback</option>
+									<option value="resolved">resolved</option>
+								</select>
+							</div>
+							<div class="tl-form-group--radius tl-form-group--has-icon">
+								<input type="search" name="tl-support-forum-search" class="tl-form-control" placeholder="Search Tickets">
+							</div>
+						</div>
+					</div>
+					<div class="tl-card__body">
+						<table class="tl-table tl-table-responsive">
+							<thead>
+								<tr>
+									<th>Ticket</th>
+									<th>Status</th>
+									<th>Created At</th>
+									<th>Replies</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td data-th="Tickets">
+										<div class="tl-table__tickets">
+											<a href="#">GOOGLE SUGGESTS TO PROPERLY SIZE IMAGES</a>
+											<p>Plugins & Themes - Smush</p>
+										</div>
+									</td>
+									<td data-th="Status">
+										<div class="tl-table__status">
+											<span class="tl-status tl-status-open">Open</span>
+										</div>
+									</td>
+									<td data-th="Created At">
+										<div class="tl-table__default-text">
+											<span>March 1 @ 4:45 AM</span>
+										</div>
+									</td>
+									<td data-th="Replies">
+										<div class="tl-table__replies">
+											<div class="tl-table__replies--avatar">
+												<img src="https://i.imgur.com/H9803XM.jpeg" alt="" style="width: 25px; height: 25px; border-radius: 50%">
+												<div class="tl-table__default-text">last by Username Here</div>
+											</div>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td data-th="Tickets">
+										<div class="tl-table__tickets">
+											<a href="#">GOOGLE SUGGESTS TO PROPERLY SIZE IMAGES</a>
+											<p>Plugins & Themes - Smush</p>
+										</div>
+									</td>
+									<td data-th="Status">
+										<div class="tl-table__status">
+											<span class="tl-status tl-status-resolved">Resolved</span>
+										</div>
+									</td>
+									<td data-th="Created At">
+										<div class="tl-table__default-text">
+											<span>March 1 @ 4:45 AM</span>
+										</div>
+									</td>
+									<td data-th="Replies">
+										<div class="tl-table__replies">
+											<div class="tl-table__replies--avatar">
+												<img src="https://i.imgur.com/H9803XM.jpeg" alt="" style="width: 25px; height: 25px; border-radius: 50%">
+												<div class="tl-table__default-text">last by Username Here</div>
+											</div>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td data-th="Tickets">
+										<div class="tl-table__tickets">
+											<a href="#">GOOGLE SUGGESTS TO PROPERLY SIZE IMAGES</a>
+											<p>Plugins & Themes - Smush</p>
+										</div>
+									</td>
+									<td data-th="Status">
+										<div class="tl-table__status">
+											<span class="tl-status tl-status-feedback">Feedback</span>
+										</div>
+									</td>
+									<td data-th="Created At">
+										<div class="tl-table__default-text">
+											<span>March 1 @ 4:45 AM</span>
+										</div>
+									</td>
+									<td data-th="Replies">
+										<div class="tl-table__replies">
+											<div class="tl-table__replies--avatar">
+												<img src="https://i.imgur.com/H9803XM.jpeg" alt="" style="width: 25px; height: 25px; border-radius: 50%">
+												<div class="tl-table__default-text">last by Username Here</div>
+											</div>
+										</div>
+									</td>
+								</tr>
+							</tbody>
+						</table>
 					</div>
 				</div>
 			</div>
