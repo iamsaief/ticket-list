@@ -15,9 +15,9 @@ export default function TLCardSupportForum() {
 				</div>
 			</div>
 			<div className="tl-card__body">
-				<svg width="64" height="64" fill="none" xmlns="http://www.w3.org/2000/svg">
-					<circle cx="32" cy="32" fill="#333" r="32" />
-					<g clip-path="url(#a)">
+				<svg width={64} height={64} fill="none" xmlns="http://www.w3.org/2000/svg">
+					<circle cx={32} cy={32} fill="#333" r={32} />
+					<g clipPath="url(#a)">
 						<path
 							d="M39.111 30.25V21.5c0-1.93-1.594-3.5-3.555-3.5h-16C17.594 18 16 19.57 16 21.5v8.75c0 1.93 1.594 3.5 3.556 3.5v2.964a.54.54 0 0 0 .86.427l4.6-3.396h10.54c1.96.005 3.555-1.564 3.555-3.495Zm5.333-3.5H40.89v3.5c0 2.893-2.395 5.25-5.333 5.25h-8.89V39c0 1.93 1.595 3.5 3.556 3.5h6.984l4.6 3.396a.54.54 0 0 0 .86-.427V42.5h1.778C46.406 42.5 48 40.93 48 39v-8.75c0-1.93-1.594-3.5-3.556-3.5Z"
 							fill="#fff"

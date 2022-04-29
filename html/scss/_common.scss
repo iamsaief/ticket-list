@@ -61,3 +61,25 @@
 		background: #9026b1;
 	}
 }
+
+.tl-nothing-found {
+	text-align: center;
+	&__icon {
+	}
+	&__title {
+		font-weight: 700;
+		font-size: 24px;
+		line-height: 35px;
+		text-align: center;
+		letter-spacing: 0.26px;
+		color: #333333;
+		margin-bottom: 10px;
+	}
+	&__hints {
+		font-size: 15px;
+		line-height: 30%;
+		letter-spacing: 0.26px;
+
+		color: #555555;
+	}
+}
